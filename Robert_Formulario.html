@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            background-image: url("https://phantom-marca.unidadeditorial.es/abfd01e815b28d5553ed7ba9fa2e9647/crop/0x0/1980x1112/resize/1320/f/jpg/assets/multimedia/imagenes/2022/03/16/16474267987028.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        fieldset{
+            width: 400px;
+            height: 100px;
+            margin: auto;
+            margin-top: 300px;
+            background-color:rgb(243, 86, 86);
+            color: white;
+            border: white;
+        }
+        legend{
+            text-align: center;
+        }
+        input{
+            display: block;
+            margin: auto;
+            border-radius: 5px;
+            border-color: white;
+        }
+        input[type='submit']{
+            background-color: rgb(243, 86, 86);
+            color: white;
+            border-radius: 30px;
+            border-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <form action='#' method="post">
+        <fieldset>
+            <legend>¡Inicie sesión!</legend>
+            <input type="text" name="username" placeholder="Summoners Name"/>
+            <br/>
+            <input type="password" name="pass" placeholder="Password"/>
+            <br/>
+            <input type="submit" name="login" value="Login"/>
+        </fieldset>
+    </form>
+</body>
+</html>
