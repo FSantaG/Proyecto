@@ -1,0 +1,1 @@
+CREATE DATABASE stringr_db;
