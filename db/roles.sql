@@ -1,7 +1,7 @@
-USE stringr_db
+USE stringr_db;
 
-CREATE TABLE IF NOT EXISTS roles(
-    role_id int(1) PRIMARY KEY,
+CREATE TABLE roles (
+    role_id int(1) NOT NULL PRIMARY KEY,
     value varchar(15)
 )ENGINE = INNODB;
 
