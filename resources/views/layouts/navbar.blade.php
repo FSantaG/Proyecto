@@ -19,11 +19,11 @@
                     Authentication Links-->
                     @guest
                             @if (Route::has('login'))
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Iniciar Sesión') }}</a>
                             @endif
 
                             @if (Route::has('register'))
-                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                <a class="nav-link" href="{{ route('register') }}">{{ __('Registrarse') }}</a>
                             @endif
                         @else
                             <li class="nav-item dropdown">
