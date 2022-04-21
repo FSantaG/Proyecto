@@ -1,9 +1,9 @@
 <form method="POST" action="{{ route('register') }}" class="login">
-    <h1>Register</h1>
+    <h1>Registro</h1>
     @csrf
 
     <div class="row mb-3">
-        <label for="name">{{ __('Name') }}</label>
+        <label for="name">{{ __('Nombre') }}</label>
 
         <div class="col-md-6">
             <input id="name" type="text" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
@@ -17,7 +17,7 @@
     </div>
 
     <div class="row mb-3">
-        <label for="email">{{ __('Email Address') }}</label>
+        <label for="email">{{ __('Email') }}</label>
 
         <div class="col-md-6">
             <input id="email" type="email" name="email" value="{{ old('email') }}" required autocomplete="email">
@@ -31,7 +31,7 @@
     </div>
 
     <div class="row mb-3">
-        <label for="password">{{ __('Password') }}</label>
+        <label for="password">{{ __('Contraseña') }}</label>
 
         <div class="col-md-6">
             <input id="password" type="password" name="password" required autocomplete="new-password">
@@ -45,7 +45,7 @@
     </div>
 
     <div class="row mb-3">
-        <label for="password-confirm">{{ __('Confirm Password') }}</label>
+        <label for="password-confirm">{{ __('Confirmar Contraseña') }}</label>
 
         <div class="col-md-6">
             <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">

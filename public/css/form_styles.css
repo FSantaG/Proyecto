@@ -1,0 +1,21 @@
+.navbar-expand-md {
+    display: none;
+}
+
+.btn-link {
+    background-color: transparent !important;
+    color: black !important;
+    padding: 0px 0px !important;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    color: #1eb37c !important;
+}
+
+input[type='checkbox'] {
+    width: auto;
+    padding: 0px;
+    margin-left: 5px;
+    display: inline;
+}

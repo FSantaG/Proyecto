@@ -1,5 +1,10 @@
+<head>
+    @include('layouts.form')
+    @include('layouts.head')
+</head>
+<body>
 @extends('layouts.app')
-
+@include('layouts.navbar')
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -75,3 +80,4 @@
     </div>
 </div>
 @endsection
+</body>

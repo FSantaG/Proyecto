@@ -5,7 +5,6 @@
     </head>
     <body class="antialiased">
         
-<!--Oooooh-->
         @include('layouts.navbar')
 
         <div style="background-image:url(img/bg-1.png)" class="bg-img">
@@ -35,7 +34,7 @@
                 <h1>¿Que es <em style="color: #05fe0b">StringR</em> ?</h1>
                 <p>
                     StringR es una plataforma donde compartir tus dudas de programador, en un ambiente tranquilo y sosegado. Basta con crearse una cuenta, y accederá a un lugar
-                    con miles de usuarios dispuestos a solucionar sus dudas inconexas. 
+                    con miles de usuarios dispuestos a solucionar sus dudas. 
                     <br/>
                     <br/>
                     ¿Tienes alguna duda? ¡Póngase en contacto con nuestro <a id="SAP">Servicio de Ayuda al Programador</a>!
@@ -54,7 +53,6 @@
                 <p>Puede mandar un correo a <strong style="color: #08e43c">soporte@stringr.com</strong> en caso de duda, avería o fallo del sistema.</p>
             </div>
         </div> 
-<!--Oooooh-->
         <script>
         var login = document.getElementById("login");
 
@@ -67,10 +65,10 @@
         var spanList = document.getElementsByClassName("close");
 
         CTAlogin.onclick = function() {
-        login.style.display = "block";
+            login.style.display = "block";
         }
         CTAregister.onclick = function() {
-        register.style.display = "block";
+            register.style.display = "block";
         }
 
         for(let i=0; i<spanList.length; i++){
@@ -81,12 +79,11 @@
         }
 
         window.onclick = function(event) {
-        if (event.target == login || event.target == register) {
-            login.style.display = "none";
-            register.style.display = "none";
-        }
+            if (event.target == login || event.target == register) {
+                login.style.display = "none";
+                register.style.display = "none";
+            }
         }
         </script>
-
     </body>
 </html>

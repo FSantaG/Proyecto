@@ -1,5 +1,5 @@
     <div class="header">
-            <a class="logo">
+            <a class="logo" href='{{ url('/') }}'>
                 <img id=logo src="img/StringLogo.png">
             </a>
             <div class="header-right">
